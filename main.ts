@@ -10,6 +10,6 @@ controller.moveSprite(SmileGuy)
 Pizza = sprites.create(assets.image`Pizza`, SpriteKind.Food)
 game.onUpdateInterval(100, function () {
     if (info.score() == 20) {
-        game.over(false)
+        game.over(true)
     }
 })
